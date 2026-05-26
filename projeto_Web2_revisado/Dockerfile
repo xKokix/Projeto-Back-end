@@ -5,4 +5,4 @@ FROM php:8.2-apache
 COPY . /var/www/html/
 
 # Expõe a porta 80 para que possamos acessar o servidor web
-EXPOSE 80
+EXPOSE 8080
